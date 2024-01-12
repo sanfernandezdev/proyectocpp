@@ -21,6 +21,5 @@ d) El valor mínimo de cada sublote.
 ### Estructura del Repositorio:
 
 - **main.cpp:** Contiene la implementación del programa en C++.
-- **README.md:** Proporciona información adicional sobre el problema y su solución.
 
 Este programa es una herramienta simple para analizar sublotes de valores y obtener estadísticas útiles.
