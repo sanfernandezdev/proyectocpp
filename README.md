@@ -21,5 +21,6 @@ d) El valor mínimo de cada sublote.
 ### Estructura del Repositorio:
 
 - **main.cpp:** Contiene la implementación del programa en C++.
+- **Ejercicio 24.cbp:** Archivo de proyecto de Code::Blocks que almacena la configuración del proyecto, incluyendo opciones de compilación y dependencias de archivos.
 
 Este programa es una herramienta simple para analizar sublotes de valores y obtener estadísticas útiles.
