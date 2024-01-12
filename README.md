@@ -18,9 +18,4 @@ d) El valor mínimo de cada sublote.
 - El lote puede estar vacío si se ingresa un número negativo como primer valor.
 - Pueden haber uno, varios o todos los sublotes vacíos (ceros consecutivos).
 
-### Estructura del Repositorio:
-
-- **main.cpp:** Contiene la implementación del programa en C++.
-- **Ejercicio 24.cbp:** Archivo de proyecto de Code::Blocks que almacena la configuración del proyecto, incluyendo opciones de compilación y dependencias de archivos.
-
 Este programa es una herramienta simple para analizar sublotes de valores y obtener estadísticas útiles.
