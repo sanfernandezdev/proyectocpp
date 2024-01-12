@@ -42,7 +42,6 @@ int main()
             cout << "Ingresar un valor para el sublote " << lote << endl;
             cin >> valor;
         }
-
         // ==========================================
 
         if(pos){
