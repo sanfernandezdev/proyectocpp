@@ -2,17 +2,17 @@
 
 using namespace std;
 
-/* Se dispone de un lote de valores enteros positivos que finaliza con un número
+/* Se dispone de un lote de valores enteros positivos que finaliza con un nÃºmero
 negativo.
-El lote está dividido en sublotes por medio de valores cero. Desarrollar un programa que
+El lote estÃ¡ dividido en sublotes por medio de valores cero. Desarrollar un programa que
 determine e informe:
 a) por cada sublote el promedio de valores
 b) el total de sublotes procesados
-c) el valor máximo del conjunto, indicando en que sublote se encontró y la posición
+c) el valor mÃ¡ximo del conjunto, indicando en que sublote se encontrÃ³ y la posiciÃ³n
 relativa del mismo dentro del sublote
-d) valor mínimo de cada sublote
-Nota: el lote puede estar vacío (primer valor negativo), o puede haber uno, varios o todos los
-sublotes vacíos (ceros consecutivos)  */
+d) valor mÃ­nimo de cada sublote
+Nota: el lote puede estar vacÃ­o (primer valor negativo), o puede haber uno, varios o todos los
+sublotes vacÃ­os (ceros consecutivos)  */
 
 int main()
 {
@@ -24,6 +24,7 @@ int main()
         cin >> valor;
         minimo = valor;
 
+        // ========== Division de sublotes ==========
         while(valor > 0){
             suma += valor;
             pos++;
@@ -41,6 +42,8 @@ int main()
             cout << "Ingresar un valor para el sublote " << lote << endl;
             cin >> valor;
         }
+
+        // ==========================================
 
         if(pos){
             cout << "Promedio de sublote " << lote << ": " << (float) suma / pos << endl;
