@@ -19,3 +19,5 @@ d) El valor mínimo de cada sublote.
 - Pueden haber uno, varios o todos los sublotes vacíos (ceros consecutivos).
 
 Este programa es una herramienta simple para analizar sublotes de valores y obtener estadísticas útiles.
+
+Guia de Ejercicios. Algoritmos y Estructura de Datos.
